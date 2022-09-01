@@ -83,8 +83,8 @@ class Window(Frame):
             self.errtext.insert(INSERT, "There is nothing to convert!")
             raise ValueError("There is nothing to merge!")
         else:
+            word = comtypes.client.CreateObject('Word.Application')
             for i in range(0, len(self.docx_list)):
-                word = comtypes.client.CreateObject('Word.Application')
                 in_filename = self.docx_list[i].replace('/','\\')
                 doc = word.Documents.Open(in_filename)
 				
