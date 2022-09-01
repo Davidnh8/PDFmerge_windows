@@ -1,6 +1,4 @@
 # PDFmerge_windows
 windows exe for merging pdf. Written in Python
 
-The PDFmerge.exe is created via pyinstaller using only PDFmerge.py
-
-I am maintaining this to support my SO's parents' business.
+I am maintaining this to support my SO's parents' business. Feel free to use it for any purpose.
