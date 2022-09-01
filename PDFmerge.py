@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 from PyPDF2 import PdfFileMerger, PdfFileReader
 import os
 from tkinter import *
@@ -13,7 +10,6 @@ class Window(Frame):
         Frame.__init__(self, master)
         self.master = master
         self.init_window()
-        #self.pdf_file_list=[]
         self.pdf_name_list=[]
         
         # main text box
@@ -102,7 +98,6 @@ class Window(Frame):
             finaldt = date + " " + timehr + "-" + timemin + "-" + timesec
             with open("mergedPDF_%s.pdf" % finaldt , 'wb') as fout:
                 merger.write(fout)
-            #self.pdf_name_list=[]
             self.errtext.insert(INSERT, "Merge Complete!!!")
     
 root =Tk()
