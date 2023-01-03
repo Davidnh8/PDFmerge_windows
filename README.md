@@ -9,4 +9,4 @@ Contains:
 How to Use:
 1. Down the zip file and unpack
 2. run the .exe file or run .py with python3
-3. add files and then run
+3. add pdf or docx files and execute
