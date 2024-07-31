@@ -8,7 +8,7 @@ Contains:
 
 How to Use:
 1. Download the zip file and unpack
-2. run the .exe file or run .py with python3
+2. run the .exe file or run .py with python 3 (after 'pip install -r requirements')
 3. add pdf or docx files and execute
 
 Note that docx to pdf requires microsoft word to be installed locally. It doesn't have to be activated
